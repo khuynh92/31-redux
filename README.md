@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/khuynh92/31-redux.svg?branch=master)](https://travis-ci.com/khuynh92/31-redux)
 
 
-heroku: http://khoa-31-redux-composition.herokuapp.com/dashboard  
+heroku: http://khoa-31-redux-composition.herokuapp.com  
 PR: https://github.com/khuynh92/31-redux/pull/1  
 Travis: https://travis-ci.com/khuynh92/31-redux-  
 
