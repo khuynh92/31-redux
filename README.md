@@ -3,7 +3,7 @@
 
 heroku: http://khoa-31-redux-composition.herokuapp.com  
 PR: https://github.com/khuynh92/31-redux/pull/1  
-Travis: https://travis-ci.com/khuynh92/31-redux-  
+Travis: https://travis-ci.com/khuynh92/31-redux  
 
 # LAB 31-redux
 
