@@ -5,10 +5,6 @@ export default (state = initialState, action) => {
   let newState;
   let { type, payload } = action;
 
-  console.log('in reducer');
-  console.log({ type });
-  console.log({ payload });
-
   switch (type) {
 
     case 'CATEGORY_CREATE':
