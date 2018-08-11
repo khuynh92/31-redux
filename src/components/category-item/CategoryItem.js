@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 
 import {categoryDestroy, editCurrent} from '../../action/category-actions';
 
+import './CategoryItem.scss';
+
 class CategoryItem extends Component {
   render() {
     return (

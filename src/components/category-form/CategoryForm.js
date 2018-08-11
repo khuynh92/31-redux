@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './CategoryForm.scss';
+
 export default class CategoryForm extends Component {
 
   state = {
@@ -36,9 +38,9 @@ export default class CategoryForm extends Component {
           <input type="text" name="name" value={this.state.name} onChange={this.handleChange}/>
         </label>
         <br />
-        <label>
+        <label id="budget-container">
           Budget: <br />
-          $ <input type="number" name="budget" value={this.state.budget} onChange={this.handleChange}/>
+          <input type="number" name="budget" value={this.state.budget} onChange={this.handleChange}/>
         </label>
         <br />
         <input type="submit" value={this.props.buttonText} />

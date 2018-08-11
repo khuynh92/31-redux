@@ -11,11 +11,13 @@ class Dashboard extends Component {
     return (
       <React.Fragment>
         <CategoryForm buttonText='submit' onComplete={this.props.categoryCreate} />
-        <ul>
+        <ul id="category-list">
           {this.props.state.map(category => !category.editing ? <CategoryItem key={category.id} category={category} /> : (
             <React.Fragment key={category.id}>
-              <CategoryForm className="editing" buttonText='submit' onComplete={this.props.categoryUpdate} category={category} />
-              <button onClick={() => this.props.cancelBtn(category)}>x</button>
+              <li className="editing">
+                <CategoryForm buttonText='submit' onComplete={this.props.categoryUpdate} category={category} />
+                <button onClick={() => this.props.cancelBtn(category)}>cancel</button>
+              </li>
             </React.Fragment>
           )
           )}
